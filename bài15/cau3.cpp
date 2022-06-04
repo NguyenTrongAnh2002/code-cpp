@@ -44,6 +44,6 @@ int main()
         cout << "nhap thoi gian goi hang " << i << ": ";
         cin >> a[i];
     }
-    sap_giam_dan(a, n);
+    sap_tang_dan(a, n);
     gready(a, n, 10);
 }
