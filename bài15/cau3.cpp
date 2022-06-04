@@ -25,7 +25,7 @@ void gready(int a[], int n, long s)
         {
             so_goi_hang_duoc_chon = s / a[i];
             s -= so_goi_hang_duoc_chon * a[i];
-            cout << "chon " << so_goi_hang_duoc_chon << " goi hang thu " << a[i] << " VND" << endl;
+            cout << "chon " << so_goi_hang_duoc_chon << " goi hang thu " << a[i]  << endl;
         }
     }
 }
