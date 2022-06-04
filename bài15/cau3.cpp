@@ -47,17 +47,5 @@ int main()
     }
     sap_tang_dan(a, n);
     gready(a, n, 10);
-}
-    do
-    {
-        cout << "nhap so luong goi hang: ";
-        cin >> n;
-    } while (n < 0);
-    for (int i = 1; i <= n; i++)
-    {
-        cout << "nhap thoi gian goi hang " << i << ": ";
-        cin >> a[i];
-    }
-    sap_tang_dan(a, n);
-    gready(a, n, 10);
+    
 }
