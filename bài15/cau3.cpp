@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void sap_giam_dan(int a[], int n)
+void sap_tang_dan(int a[], int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
